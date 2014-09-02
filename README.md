@@ -1,4 +1,19 @@
-sql.howtocode.com.bd
-====================
+<iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fhowtocode.com.bd&amp;width&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=353725671441956" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px; margin-left:-15px;" allowTransparency="true"></iframe>
 
-বাংলায় SQL টিউটোরিয়াল, বিশেষ করে MySQL ও অন্যান্য ডাটাবেজ ম্যানেজমেন্ট সিস্টেম এ ডাটা ম্যানিপুলেশন নিয়ে বাংলা কোর্স
+[কোর্স এর মুল পাতা](http://sql.howtocode.com.bd/) | [HowToCode মূল সাইট](http://www.howtocode.com.bd/) | [সবার জন্য প্রোগ্রামিং ব্লগ](http://blog.howtocode.com.bd/) 
+
+# SQL টিউটোরিয়াল
+
+### [লেখকের নাম](http://author)
+
+#### সংক্ষেপ
+
+... কোর্সের সংক্ষিপ্ত বিবরণ
+
+#### ওপেন সোর্স
+
+এই বইটি মূলত স্বেচ্ছাশ্রমে লেখা এবং বইটি সম্পূর্ন ওপেন সোর্স । এখানে তাই আপনিও অবদান রাখতে পারেন লেখক হিসেবে । আপনার কন্ট্রিবিউশান গৃহীত হলে অবদানকারীদের তালিকায় আপনার নাম যোগ করে দেওয়া হবে ।
+
+এটি মূলত একটি [গিটহাব রিপোজিটোরি](https://github.com/howtocode-com-bd/sql.howtocode.com.bd) যেখানে এই বইয়ের আর্টিকেল গুলো মার্কডাউন ফরম্যাটে লেখা হচ্ছে। রিপোজটরিটি ফর্ক করে পুল রিকুয়েস্ট পাঠানোর মাধ্যমে আপনারাও অবদান রাখতে পারেন ।
+
+<iframe src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsql.howtocode.com.bd&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21&amp;appId=353725671441956" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
