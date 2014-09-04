@@ -1,14 +1,18 @@
 <iframe src="https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fhowtocode.com.bd&amp;width&amp;height=62&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=353725671441956" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:62px; margin-left:-15px;" allowTransparency="true"></iframe>
 
-[কোর্স এর মুল পাতা](http://sql.howtocode.com.bd/) | [HowToCode মূল সাইট](http://www.howtocode.com.bd/) | [সবার জন্য প্রোগ্রামিং ব্লগ](http://blog.howtocode.com.bd/) 
+[কোর্স এর মুল পাতা](http://sql.howtocode.com.bd/) | [HowToCode মূল সাইট](http://www.howtocode.com.bd/) | [সবার জন্য প্রোগ্রামিং ব্লগ](http://blog.howtocode.com.bd/)
 
-# SQL টিউটোরিয়াল
+# SQL - রিলেশনাল ডাটাবেজের ভাষা
 
-### [লেখকের নাম](http://author)
+### [সাব্বির আহমেদ](https://twitter.com/alreadysabbir)
 
-#### সংক্ষেপ
-
-... কোর্সের সংক্ষিপ্ত বিবরণ
+## সংক্ষেপ
+  আপনার স্মার্টফোনের অ্যাপ থেকে শুরু করে ওয়েব, বাংকিং সিস্টেম ‌সহ প্রায় সব ক্ষেত্রেই তথ্য সংরক্ষনের জন্য ব্যাবহার করা হয় ডাটাবেজ । ডাটাবেজ থেকে তথ্য পেতে হলে আপনাকে বিশেষ প্রোগ্রামিং লাংগুয়েজ ব্যাবহার করতে হবে। SQL - Structure Query Language (এসকিউএল বা সিকুয়েল) হচ্ছে তেমনি একটি প্রোগ্রামিং লাংগুয়েজ যা রিলেশনাল ডাটাবেজের ভাষা হিসেবে সর্বাধিক প্রচলিত। এসকিউএল দিয়ে  তথ্য বের কার ছাড়াও ডাটাবেজ তৈরি, তথ্য সরক্ষন সহ আরো অনেক কাজ করা যায়।
+  
+  এই কোর্সরটি মূলত সবধরনের পাঠককে লক্ষ করে লেখা। আপনি যদি ডাটাবেজ সম্বন্ধে কিছুটা ধারনা রাখেন এবং কমান্ড লাইনে কমান্ড লিখতে পারেন তবেই আপনি এই কোর্সটি শুরু করে দিতে পারেন। আপনি যদি এসকিউএল এর সাথে কিছুটা পুর্ব পরিচিত থাকেন, তবে আশাকরি এই কোর্সটি আপনাকে এসকিউএল এর সাথে নতুন করে পরিচিত করবে।
+  
+  এসকিউএল শেখানোর জন্যে ডাটাবেজ হিসেবে এই কোর্সে জনপ্রিয় ওপেনসোর্স ডাটাবেজ ম্যানেজমেন্ট সিস্টেম মাইএসকিউএল (MySQL) ব্যাবহার করা হবে। কোর্স শেষে আপনি যাতে অন্যান্য ডাটাবেজের (PostgreSQL, SQLite3) সাথেও যাতে সাচ্ছন্দে এসকিউএল ব্যাবহার করতে পারেন সেই প্রচেষ্টা থাকবে।
+ 
 
 #### ওপেন সোর্স
 
