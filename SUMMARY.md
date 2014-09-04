@@ -6,4 +6,3 @@
 * [ইনস্টলেশন](installation.md)
 * [হাতে খড়ি](sqlinhand.md)
 * [ডাটাবেজ তৈরী](creatingdb.md)
-
