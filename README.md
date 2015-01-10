@@ -4,7 +4,8 @@
 
 # SQL - রিলেশনাল ডাটাবেজের ভাষা
 
-### [সাব্বির আহমেদ](https://twitter.com/alreadysabbir)
+<iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%; margin-left: 15;" allowTransparency="true" src="http://api.howtocode.com.bd/contrib/sql"></iframe> 
+
 
 ## সংক্ষেপ
   আপনার স্মার্টফোনের অ্যাপ থেকে শুরু করে ওয়েব, বাংকিং সিস্টেম ‌সহ প্রায় সব ক্ষেত্রেই তথ্য সংরক্ষনের জন্য ব্যাবহার করা হয় ডাটাবেজ । ডাটাবেজ থেকে তথ্য পেতে হলে আপনাকে বিশেষ প্রোগ্রামিং লাংগুয়েজ ব্যাবহার করতে হবে। SQL - Structured Query Language (এসকিউএল বা সিকুয়েল) হচ্ছে তেমনি একটি প্রোগ্রামিং লাংগুয়েজ যা রিলেশনাল ডাটাবেজের ভাষা হিসেবে সর্বাধিক প্রচলিত। এসকিউএল দিয়ে  তথ্য বের কার ছাড়াও ডাটাবেজ তৈরি, তথ্য সরক্ষন সহ আরো অনেক কাজ করা যায়।
