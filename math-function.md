@@ -14,6 +14,7 @@ WHERE price>(SELECT AVG(price) FROM products);
 ```
 
 কোন কলামের ডাটাসমূহের থেকে সর্বোচ্চ মান বের করার জন্য `MAX()` ফাংশনটি ব্যবহার করা হয়।
+
 **`SQL MAX()` সিনট্যাক্স**
 ```sql
 SELECT MAX(column_name) FROM table_name;
