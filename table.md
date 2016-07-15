@@ -16,4 +16,16 @@ CREATE TABLE IF NOT EXISTS `table_name` (
 
 ##টেবিল সম্পাদনা
 
+`ALTER TABLE` কমান্ড দিয়ে টেবিলের স্কিমা/স্ট্রাকচার পরিবর্তন করা যায়।
+
+**উদাহরনঃ** টেবিলে `name` নামে একটি নতুন কলাম যুক্ত করা হয়েছে নিচের কমাড দিয়ে।
+```sql
+ALTER TABLE `table_name` ADD `name` VARCHAR(50) NOT NULL AFTER `id`;
+```
+
 ##টেবিল মুছে ফেলা
+
+`DROP TABLE` কমান্ড দিয়ে টেবিল ডাটাবেস থেকে মুছে ফেলা যায়।
+```sql
+DROP TABLE table_name
+```
