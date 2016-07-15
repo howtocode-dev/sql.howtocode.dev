@@ -6,7 +6,7 @@
 * [ইনস্টলেশন](installation.md)
 * [ডাটাবেজ](creatingdb.md)
 * [এসকিউএল সিনট্যাক্স](sql-syntax.md)
-* [টেবিল অপারেশন](table.md) 
+* [টেবিল অপারেশন](table.md)
 * [এসকিউএল কমান্ড'স](sql-commands.md)
 * 
 
