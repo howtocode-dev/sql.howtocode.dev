@@ -1,12 +1,18 @@
 # JOIN
-SQL INNER JOIN Syntax
+দুই বা ততোধিক টেবিলের  রো একসাথে যুক্ত করতে `SQL JOIN` ব্যবহার করা হয়। SQL এ JOIN মোট ৪ প্রকারের।
+
+##INNER JOIN
+INNER JOIN কীওয়ার্ড দিয়ে দুই বা ততোধিক টেবিলের রো একসাথে যুক্ত করতে হলে তুলনাকারী কলামের মান সমান হতে হয়। অনেকটা কমন নেওয়ার মত।
+ 
+**`SQL INNER JOIN` সিনট্যাক্স**
 ```sql
 SELECT column_name(s)
 FROM table1
 INNER JOIN table2
 ON table1.column_name=table2.column_name;
 ```
-or:
+অথবা,
+
 ```sql
 SELECT column_name(s)
 FROM table1
@@ -14,43 +20,11 @@ JOIN table2
 ON table1.column_name=table2.column_name;
 ```
 
-
+উদাহরনঃ
 ```sql
-SQL LEFT JOIN Syntax
-SELECT column_name(s)
-FROM table1
-LEFT JOIN table2
-ON table1.column_name=table2.column_name;
-```
-or:
-
-```sql
-SELECT column_name(s)
-FROM table1
-LEFT OUTER JOIN table2
-ON table1.column_name=table2.column_name;
-```
-
-```sql
-SQL RIGHT JOIN Syntax
-SELECT column_name(s)
-FROM table1
-RIGHT JOIN table2
-ON table1.column_name=table2.column_name;
-```
-or:
-
-```sql
-SELECT column_name(s)
-FROM table1
-RIGHT OUTER JOIN table2
-ON table1.column_name=table2.column_name;
-```
-
-```sql
-SQL FULL OUTER JOIN Syntax
-SELECT column_name(s)
-FROM table1
-FULL OUTER JOIN table2
-ON table1.column_name=table2.column_name;
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+INNER JOIN Orders
+ON Customers.CustomerID=Orders.CustomerID
+ORDER BY Customers.CustomerName;
 ```
