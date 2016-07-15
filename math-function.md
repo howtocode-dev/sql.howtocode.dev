@@ -25,6 +25,7 @@ SELECT MAX(price) AS max_price FROM products;
 ```
 
 কোন কলামের ডাটাসমূহের থেকে সর্বনিম্ন মান বের করার জন্য `MIN()` ফাংশনটি ব্যবহার করা হয়।
+
 **`SQL MIN()` সিনট্যাক্স**
 ```sql
 SELECT MIN(column_name) FROM table_name;
@@ -35,6 +36,7 @@ SELECT MIN(price) AS min_price FROM products;
 ```
 
 কোন কলামের ডাটাসমূহের যোগফল বের করার জন্য `SUM()` ফাংশনটি ব্যবহার করা হয়।
+
 **`SQL SUM()` সিনট্যাক্স**
 ```sql
 SELECT SUM(column_name) FROM table_name;
