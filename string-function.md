@@ -29,3 +29,7 @@ SELECT SUBSTRING(column_name,start,length) AS some_name FROM table_name;
 SELECT MID(city,1,4) AS short_city
 FROM Customers;
 ```
+```sql
+SELECT SUBSTRING(city,1,4) AS short_city
+FROM Customers;
+```
