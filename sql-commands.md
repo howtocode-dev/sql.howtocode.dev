@@ -15,6 +15,7 @@ SELECT * FROM table_name;
 ## ইনসার্ট
 
 ** `SQL INSERT INTO` সিনট্যাক্স **
+
 কলামের নাম ছাড়া
 ```sql
 INSERT INTO table_name
