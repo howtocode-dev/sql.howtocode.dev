@@ -6,4 +6,5 @@
 * [ইনস্টলেশন](installation.md)
 * [ডাটাবেজ তৈরী](creatingdb.md)
 * [এসকিউএল সিনট্যাক্স](sql-syntax.md)
+   * ইনসার্ট
 
