@@ -4,6 +4,8 @@
 
 # SQL - রিলেশনাল ডাটাবেজের ভাষা
 
+## [সাইফুল ইসলাম](https://www.gitbook.com/@saaiful)
+
 [![Join the chat at https://gitter.im/howtocode-com-bd/sql.howtocode.com.bd](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/howtocode-com-bd/sql.howtocode.com.bd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%; margin-left: 15;" allowTransparency="true" src="http://api.howtocode.com.bd/contrib/sql"></iframe> 
