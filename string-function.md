@@ -27,9 +27,9 @@ SELECT SUBSTRING(column_name,start,length) AS some_name FROM table_name;
 উদাহরনঃ
 ```sql
 SELECT MID(city,1,4) AS short_city
-FROM Customers;
+FROM customers;
 ```
 ```sql
 SELECT SUBSTRING(city,1,4) AS short_city
-FROM Customers;
+FROM customers;
 ```
