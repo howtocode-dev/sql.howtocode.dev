@@ -10,6 +10,6 @@
    * [স্ট্রিং অপারেশন](string-function.md)
    * [গানিতিক অপারেশন](math-function.md)
    * লজিক্যাল অপারেশন
-   * JOIN
+   * [JOIN](join.md)
    * সময় ও তারিখ এর ব্যবহার
 
