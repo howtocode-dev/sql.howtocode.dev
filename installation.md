@@ -42,3 +42,5 @@ MySQL এর [অফিশিয়াল সাইট](http://dev.mysql.com/downlo
 ```sh
 sudo apt-get install phpmyadmin
 ```
+
+উইন্ডোজ এর জন্য [WAMP](http://www.wampserver.com/en/)/[XAMPP](https://www.apachefriends.org/download.html) ব্যবহার করুন।
