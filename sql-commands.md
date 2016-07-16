@@ -43,3 +43,21 @@ WHERE some_column=some_value;
 DELETE FROM table_name
 WHERE some_column=some_value;
 ```
+
+## WHERE
+**`SQL WHERE` সিনট্যাক্স **
+```sql
+SELECT *
+FROM table_name
+WHERE column_name operator value;
+```
+উদাহরনঃ
+```sql
+SELECT * FROM Customers
+WHERE Country='Bangladesh';
+```
+```sql
+SELECT * FROM Customers
+WHERE Id=1;
+```
+
