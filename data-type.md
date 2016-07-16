@@ -24,5 +24,7 @@
 |MEDIUMTEXT|MEDIUMBLOB|L + 3 বাইট’স|16,777,215|
 |LONGTEXT|LONGBLOB|L + 4 বাইট’স|4,294,967,295|
 
-**উল্লেখ্য L = সংরক্ষিত মান এর দৈর্ঘ্য/Length**
+** উল্লেখ্য L = সংরক্ষিত মান এর দৈর্ঘ্য / Length**
+
+** ব্লব / BLOB  = Binary Large Object**
 <br>
