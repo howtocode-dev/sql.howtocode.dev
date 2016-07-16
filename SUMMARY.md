@@ -5,6 +5,7 @@
 * [রিলেশনাল ডাটাবেজ ম্যানেজমেন্ট সিস্টেমস](rdms.md)
 * [ইনস্টলেশন](installation.md)
 * [ডাটাবেজ](creatingdb.md)
+* [ডাটা টাইপ](data-type.md)
 * [টেবিল অপারেশন](table.md)
 * [এসকিউএল কমান্ড'স](sql-commands.md)
    * [স্ট্রিং অপারেশন](string-function.md)
@@ -12,5 +13,4 @@
    * লজিক্যাল অপারেশন
    * [JOIN](join.md)
    * [সময় ও তারিখ এর ব্যবহার](date-time.md)
-* [ডাটা টাইপ](data-type.md)
 
