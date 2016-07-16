@@ -10,7 +10,7 @@
 * [এসকিউএল কমান্ড'স](sql-commands.md)
    * [স্ট্রিং অপারেশন](string-function.md)
    * [গানিতিক অপারেশন](math-function.md)
-   * লজিক্যাল অপারেশন
+   * [লজিক্যাল অপারেশন](logical.md)
    * [JOIN](join.md)
    * [সময় ও তারিখ এর ব্যবহার](date-time.md)
 
