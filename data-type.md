@@ -23,6 +23,7 @@
 |TEXT|BLOB|L + 2 বাইট’স|65,535|
 |MEDIUMTEXT|MEDIUMBLOB|L + 3 বাইট’স|16,777,215|
 |LONGTEXT|LONGBLOB|L + 4 বাইট’স|4,294,967,295|
+|VARCHAR|-|L + 2 বাইট’স|0-65535|
 
 ** উল্লেখ্য L = সংরক্ষিত মান এর দৈর্ঘ্য / Length**
 
