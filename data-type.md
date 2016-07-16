@@ -40,3 +40,7 @@
 |YEAR|YYYY|1 বাইট|
 |DATETIME|YYYY-MM-DD HH:MM:SS|	8 বাইট’স|
 |TIMESTAMP| YYYY-MM-DDHH:MM:SS|	8 বাইট’স|
+
+
+## অন্যান্য
+ENUM, SET, BOOLEAN
