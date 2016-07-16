@@ -47,9 +47,8 @@ WHERE some_column=some_value;
 ## WHERE
 **`SQL WHERE` সিনট্যাক্স **
 ```sql
-SELECT *
-FROM table_name
-WHERE column_name operator value;
+SELECT field1, field2,...fieldN table_name1, table_name2...
+[WHERE condition1 [AND [OR]] condition2.....
 ```
 
 WHERE এর অপারেটর সমূহঃ
