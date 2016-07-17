@@ -37,31 +37,6 @@
 > ![](images/1.png)
 চিত্রঃডাটাবেস ডিজাইন (রিলেশন ছাড়া)
 
-```sql
-CREATE TABLE `abc_user` (
-	`user_id` INT NOT NULL,
-	`username` varchar(20) NOT NULL UNIQUE,
-	`password` varchar(32) NOT NULL,
-	`email` varchar(100) NOT NULL UNIQUE,
-	PRIMARY KEY (`user_id`)
-);
-
-CREATE TABLE `abc_post` (
-	`post_id` INT NOT NULL,
-	`title` varchar(255) NOT NULL,
-	`details` TEXT NOT NULL,
-	`user_id` INT NOT NULL,
-	PRIMARY KEY (`post_id`)
-);
-
-CREATE TABLE `abc_comment` (
-	`comment_id` INT NOT NULL,
-	`user_id` INT NOT NULL AUTO_INCREMENT,
-	`post_id` INT NOT NULL,
-	`details` varchar(255) NOT NULL,
-	PRIMARY KEY (`comment_id`)
-);
-```
 
 <br>
 ## ডাটার মধ্যবর্তী সম্পর্ক নির্ধারন করা
@@ -75,35 +50,38 @@ CREATE TABLE `abc_comment` (
 চিত্রঃডাটাবেস ডিজাইন (রিলেশন সহ)
 
 ```sql
-CREATE TABLE `abc_user` (
-	`user_id` INT NOT NULL,
-	`username` varchar(20) NOT NULL UNIQUE,
-	`password` varchar(32) NOT NULL,
-	`email` varchar(100) NOT NULL UNIQUE,
-	PRIMARY KEY (`user_id`)
-);
+DROP TABLE IF EXISTS `abc_user`;
+CREATE TABLE IF NOT EXISTS `abc_user` (
+  `user_id` int(11) NOT NULL,
+  `username` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `password` varchar(32) COLLATE utf8_unicode_ci NOT NULL,
+  `email` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`user_id`),
+  UNIQUE KEY `username` (`username`),
+  UNIQUE KEY `email` (`email`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-CREATE TABLE `abc_post` (
-	`post_id` INT NOT NULL,
-	`title` varchar(255) NOT NULL,
-	`details` TEXT NOT NULL,
-	`user_id` INT NOT NULL,
-	PRIMARY KEY (`post_id`)
-);
+DROP TABLE IF EXISTS `abc_post`;
+CREATE TABLE IF NOT EXISTS `abc_post` (
+  `post_id` int(11) NOT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `details` mediumtext COLLATE utf8_unicode_ci NOT NULL,
+  `user_id` int(11) NOT NULL,
+  PRIMARY KEY (`post_id`),
+  KEY `abc_post_fk0` (`user_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
-CREATE TABLE `abc_comment` (
-	`comment_id` INT NOT NULL,
-	`user_id` INT NOT NULL AUTO_INCREMENT,
-	`post_id` INT NOT NULL,
-	`details` varchar(255) NOT NULL,
-	PRIMARY KEY (`comment_id`)
-);
-
-ALTER TABLE `abc_post` ADD CONSTRAINT `abc_post_fk0` FOREIGN KEY (`user_id`) REFERENCES `abc_user`(`user_id`);
-
-ALTER TABLE `abc_comment` ADD CONSTRAINT `abc_comment_fk0` FOREIGN KEY (`user_id`) REFERENCES `abc_user`(`user_id`);
-
-ALTER TABLE `abc_comment` ADD CONSTRAINT `abc_comment_fk1` FOREIGN KEY (`post_id`) REFERENCES `abc_post`(`post_id`);
+DROP TABLE IF EXISTS `abc_comment`;
+CREATE TABLE IF NOT EXISTS `abc_comment` (
+  `comment_id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `post_id` int(11) NOT NULL,
+  `details` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (`comment_id`),
+  KEY `abc_comment_fk0` (`user_id`),
+  KEY `abc_comment_fk1` (`post_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 ```
 <br>
 
+####ভিজুয়ালী স্কীমা ডিজাইন করতে [এই সাইট](http://dbdesigner.net/) ব্যবহার করতে পারেন।
