@@ -6,7 +6,7 @@
 * [ইনস্টলেশন](installation.md)
 * [ডাটাবেজ](creatingdb.md)
 * [ডাটা টাইপ](data-type.md)
-* [ডাটাবেস ডিজাইন](database-schema-design.md)
+* [ডাটাবেস ডিজাইন](database-design.md)
 * [টেবিল অপারেশন](table.md)
 * [এসকিউএল কমান্ড'স](sql-commands.md)
    * [স্ট্রিং অপারেশন](string-function.md)
