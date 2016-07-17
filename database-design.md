@@ -37,6 +37,32 @@
 > ![](images/1.png)
 চিত্রঃডাটাবেস ডিজাইন (রিলেশন ছাড়া)
 
+```sql
+CREATE TABLE `abc_user` (
+	`user_id` INT NOT NULL,
+	`username` varchar(20) NOT NULL UNIQUE,
+	`password` varchar(32) NOT NULL,
+	`email` varchar(100) NOT NULL UNIQUE,
+	PRIMARY KEY (`user_id`)
+);
+
+CREATE TABLE `abc_post` (
+	`post_id` INT NOT NULL,
+	`title` varchar(255) NOT NULL,
+	`details` TEXT NOT NULL,
+	`user_id` INT NOT NULL,
+	PRIMARY KEY (`post_id`)
+);
+
+CREATE TABLE `abc_comment` (
+	`comment_id` INT NOT NULL,
+	`user_id` INT NOT NULL AUTO_INCREMENT,
+	`post_id` INT NOT NULL,
+	`details` varchar(255) NOT NULL,
+	PRIMARY KEY (`comment_id`)
+);
+```
+
 <br>
 ## ডাটার মধ্যবর্তী সম্পর্ক নির্ধারন করা
 
@@ -48,6 +74,36 @@
 ![](images/2.png)
 চিত্রঃডাটাবেস ডিজাইন (রিলেশন সহ)
 
+```sql
+CREATE TABLE `abc_user` (
+	`user_id` INT NOT NULL,
+	`username` varchar(20) NOT NULL UNIQUE,
+	`password` varchar(32) NOT NULL,
+	`email` varchar(100) NOT NULL UNIQUE,
+	PRIMARY KEY (`user_id`)
+);
 
+CREATE TABLE `abc_post` (
+	`post_id` INT NOT NULL,
+	`title` varchar(255) NOT NULL,
+	`details` TEXT NOT NULL,
+	`user_id` INT NOT NULL,
+	PRIMARY KEY (`post_id`)
+);
+
+CREATE TABLE `abc_comment` (
+	`comment_id` INT NOT NULL,
+	`user_id` INT NOT NULL AUTO_INCREMENT,
+	`post_id` INT NOT NULL,
+	`details` varchar(255) NOT NULL,
+	PRIMARY KEY (`comment_id`)
+);
+
+ALTER TABLE `abc_post` ADD CONSTRAINT `abc_post_fk0` FOREIGN KEY (`user_id`) REFERENCES `abc_user`(`user_id`);
+
+ALTER TABLE `abc_comment` ADD CONSTRAINT `abc_comment_fk0` FOREIGN KEY (`user_id`) REFERENCES `abc_user`(`user_id`);
+
+ALTER TABLE `abc_comment` ADD CONSTRAINT `abc_comment_fk1` FOREIGN KEY (`post_id`) REFERENCES `abc_post`(`post_id`);
+```
 <br>
 
