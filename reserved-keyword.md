@@ -192,4 +192,4 @@ MySQL এর সকল রিজার্ভড কিওয়ার্ড / ও�
 |WORK|WRAPPER|WRITE (R)|
 |X509|XA|XML|
 |XOR (R)|YEAR|YEAR_MONTH (R)|
-|ZEROFILL (R)|
+|ZEROFILL (R)|-|-|
