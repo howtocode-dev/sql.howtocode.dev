@@ -1,13 +1,13 @@
-<iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%;" allowTransparency="true" src="http://www.howtocode.com.bd/like.html"></iframe> 
+<iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%;" allowTransparency="true" src="http://www.howtocode.com.bd/like.html"></iframe>
 
 [কোর্স এর মুল পাতা](http://sql.howtocode.com.bd/) | [HowToCode মূল সাইট](http://www.howtocode.com.bd/) | [সবার জন্য প্রোগ্রামিং ব্লগ](http://blog.howtocode.com.bd/) | [পিডিএফ ডাউনলোড](https://www.gitbook.com/download/pdf/book/howtocode-com-bd/-sql)    
 
 # SQL - রিলেশনাল ডাটাবেজের ভাষা
 
 
-[![Join the chat at https://gitter.im/howtocode-com-bd/sql.howtocode.com.bd](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/howtocode-com-bd/sql.howtocode.com.bd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/howtocode-com-bd/sql.howtocode.com.bd](https://badges.gitter.im/Join%20Chat.png)](https://gitter.im/howtocode-com-bd/sql.howtocode.com.bd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%; margin-left: 15;" allowTransparency="true" src="http://api.howtocode.com.bd/contrib/sql"></iframe> 
+<iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%; margin-left: 15;" allowTransparency="true" src="http://api.howtocode.com.bd/contrib/sql"></iframe>
 
 
 ## সংক্ষেপ
@@ -15,8 +15,8 @@
 
 ডাটাবেস ম্যানেজমেন্ট সিস্টেম (DBMS) হল সফটওয়্যার নিয়ন্ত্রিত একটি ব্যবস্থা যার মাধ্যমে ডাটাবেস পরিচালনা, তথ্যের স্থান সংকুলান, নিরাপত্তা, ব্যাকআপ, তথ্য সংগ্রহের অনুমতি ইত্যাদি নির্ধারণ করা হয়। আমাদের নিত্য দিনের ব্যবহারিত সকল সফটওয়্যার , ওয়েব সাইট, ওয়েব এ্যপ , মোবাইল এ্যপের সকল তথ্য সংরক্ষনের জন্য ব্যবহার করা হয় ডাটাবেস। কিছু জনপ্রিয় ডাটাবেস ম্যানেজমেন্ট সিস্টেম হল ওরাকল, এসকিউএল, এসকিউএল-লাইট, মাইএসকিউএল, পোস্টজিআরই-এসকিউএল, মাইক্রোসফট এসকিউএল সার্ভার, আইবিএম ডিবি২, মাইক্রোসফট এক্সেস।
 
-এই বইতে মুলত  জনপ্রিয় ওপেনসোর্স ডাটাবেজ ম্যানেজমেন্ট সিস্টেম MySQL (মাইএসকিউএল/মাইসিকুএল) নিয়ে আলোকপাত করা হয়েছে। 
- 
+এই বইতে মুলত  জনপ্রিয় ওপেনসোর্স ডাটাবেজ ম্যানেজমেন্ট সিস্টেম MySQL (মাইএসকিউএল/মাইসিকুএল) নিয়ে আলোকপাত করা হয়েছে।
+
 
 #### ওপেন সোর্স
 
