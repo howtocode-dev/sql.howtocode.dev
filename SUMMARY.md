@@ -14,6 +14,5 @@
     * [লজিক্যাল অপারেশন](logical.md)
     * [JOIN](join.md)
     * [সময় ও তারিখ এর ব্যবহার](date-time.md)
-    * অপারেটর'স
+    * [অপারেটর'স](operators.md)
 * [ডাটাবেস অপ্টিমাইজেশান](database-optimization.md)
-
