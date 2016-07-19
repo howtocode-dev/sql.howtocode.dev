@@ -14,7 +14,7 @@
         }
     },
     "pdf":{
-    	"fontSize": 15,
+    	"fontSize": 12,
 		"fontFamily": "Solaimanlipi"
     }
 }
