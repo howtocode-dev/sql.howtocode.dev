@@ -13,6 +13,9 @@
             "সব কোর্স লিস্ট দেখুন": "http://www.howtocode.com.bd"
         }
     },
+	"styles": {
+		"pdf": "styles/pdf.css"
+	},
     "pdf":{
     	"fontSize": 12,
 		"fontFamily": "Solaimanlipi"
