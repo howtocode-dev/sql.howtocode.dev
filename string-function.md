@@ -33,3 +33,20 @@ FROM customers;
 SELECT SUBSTRING(city,1,4) AS short_city
 FROM customers;
 ```
+
+দুই বা ততোধিক কলামের ডাটা এক সাথে যুক্ত করার জন্য CONCAT() ফাংশনটি ব্যবহার করা হয়।
+
+**SQL CONCAT() সিনট্যাক্স**
+
+```sql
+SELECT CONCAT(str1,str2,...) AS al_name 
+FROM table;
+```
+উদাহরনঃ
+```sql
+SELECT CONCAT(col_1,col_2) AS al_name 
+FROM table;
+```
+
+স্ট্রিং সম্পর্কিত আরো ফাংশন সম্পর্কে জানতে [এই সাইট](http://dev.mysql.com/doc/refman/5.7/en/string-functions.html) ভিজিট করুন।
+
