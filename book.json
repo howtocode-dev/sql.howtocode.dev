@@ -1,4 +1,5 @@
 {
+	"language": "bn",
     "plugins": [
         "disqus"
     ],
@@ -13,6 +14,7 @@
         }
     },
     "pdf":{
-    	"fontSize": 15
+    	"fontSize": 15,
+		"fontFamily": "Solaimanlipi"
     }
 }
