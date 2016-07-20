@@ -36,7 +36,7 @@ SET column1=value1,column2=value2,...
 WHERE some_column=some_value;
 ```
 
-## ডিলেট
+## ডিলিট
 
 ** `SQL DELETE` সিনট্যাক্স **
 ```sql
@@ -54,7 +54,7 @@ SELECT field1, field2,...fieldN table_name1, table_name2...
 
 WHERE এর অপারেটর সমূহঃ
 
-| অপারেটর | বর্ননা |
+| অপারেটর | বর্ণনা |
 | -- | -- |
 | = | সমান বোঝাতে |
 | <> | সমান নয় বোঝাতে  |
@@ -87,7 +87,7 @@ WHERE Id=1 OR Country='Bangladesh';
 ```
 
 ## ORDER BY
-এক বা একাধিক কলামের ডাটা সর্ট করতে ORDER BY ক্লস ব্যবহারিত হয়ে থাকে। ডিফল্ট ORDER ASC এসেন্ডিং (আরোহী)।
+এক বা একাধিক কলামের ডাটা সর্ট করতে ORDER BY ক্লস ব্যবহৃত হয়ে থাকে। ডিফল্ট ORDER ASC এসেন্ডিং (আরোহী)।
 
 **ASC = Ascending / আরোহী / উর্ধক্রম **<br>
 **DESC = Descending / অবরোহী / নিম্নক্রম**
@@ -117,7 +117,7 @@ ORDER BY Country ASC, CustomerName DESC;
 
 ## GROUP BY
 
-একই ধরনের ডাটার GROUP তৈরি করতে GROUP BY ক্লস ব্যবহারিত হয়ে থাকে।
+একই ধরনের ডাটার GROUP তৈরি করতে GROUP BY ক্লস ব্যবহৃত হয়ে থাকে।
 
 **`SQL ORDER BY` সিনট্যাক্স **
 ```sql

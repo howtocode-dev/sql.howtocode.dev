@@ -1,4 +1,4 @@
-# লিন্যাক্স/*nix
+# লিনাক্স/*nix
 
 টার্মিনালে নিচের কমান্ড দিয়ে রিপো আপডেট করুন।
 ```sh
@@ -33,11 +33,11 @@ sudo port unload mysql5-server
 
 # উইন্ডোজ
 
-MySQL এর [অফিশিয়াল সাইট](http://dev.mysql.com/downloads/installer/) থেকে ইন্সটলার নামিয়ে ইন্সটল করুন। 
+MySQL এর [অফিশিয়াল সাইট](http://dev.mysql.com/downloads/installer/) থেকে ইন্সটলার নামিয়ে ইন্সটল করুন।
 
 
 ## phpmyadmin
-গ্রাফিক্যাল ইটারফেস দিয়ে MySQL ব্যবহার করতে চাইলে phpmyadmin ইন্সটল করতে পারেন। তবে এর জন্য পিএইচপি এবং Apache/Nginx/Web সার্ভার ইন্সটল করা থাকতে হবে। phpmyadmin ইন্সটল করতে টার্মিনালে নিচের কমান্ড দিন।
+গ্রাফিক্যাল ইন্টারফেস দিয়ে MySQL ব্যবহার করতে চাইলে phpmyadmin ইন্সটল করতে পারেন। তবে এর জন্য পিএইচপি এবং Apache/Nginx/Web সার্ভার ইন্সটল করা থাকতে হবে। phpmyadmin ইন্সটল করতে টার্মিনালে নিচের কমান্ড দিন।
 
 ```sh
 sudo apt-get install phpmyadmin

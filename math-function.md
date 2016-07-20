@@ -1,4 +1,4 @@
-# গানিতিক অপারেশন
+# গাণিতিক অপারেশন
 
 
 কোন কলামের ডাটাসমূহের গড় বের করার জন্য `AVG()` ফাংশনটি ব্যবহার করা হয়।
@@ -60,4 +60,3 @@ FROM products; // price = 21.35
 SELECT products, ROUND(price) AS new_price
 FROM products; // price = 21
 ```
-
